@@ -1,0 +1,107 @@
+/* Existing styles */
+body {
+    font-family: 'Arial', sans-serif;
+    width: 300px;
+    text-align: center;
+}
+
+header {
+    background-color: #40E0D0; /* Turquoise */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    background-color: #40E0D0; /* Turquoise */
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #36B3A8; /* Darker Turquoise */
+}
+
+.dapp-slider {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+#dappList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap; /* This ensures the dapps don't wrap to the next line */
+    width: 1200px; /* Assuming each dapp takes 300px and we have 4 visible at a time */
+    transition: transform 0.3s;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    right: 10px;
+    z-index: 1;
+}
+
+/* New styles */
+.dapp {
+    flex: 0 0 calc(100% / 4); /* This ensures that only 4 dapps are shown at a time */
+    /* ... other styles remain unchanged */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* This will vertically center the content */
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+.dappName {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #30D5C8;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.arrow.left {
+    left: -20px; /* Adjust this value to move the left arrow further to the left */
+}
+
+
+.arrow.right {
+    right: 0;
+}
+
+.dappContainer {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 300px;
+}
