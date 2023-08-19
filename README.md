@@ -2,7 +2,7 @@
 
 Welcome to **Web3 Citizen Streak**! 
 
-Web3 Citizen Streak is a meticulously crafted tool tailored for the dedicated 'web3 citizens'—those who immerse themselves in the decentralized digital realm daily. Recognizing the rapid evolution of the web3 ecosystem, our platform ensures users remain at the forefront of exploring innovative new dapps. Should a user's engagement wane, our intuitive system promptly introduces them to fresh, curated dapps, ensuring their streak remains unbroken. With a blend of simplicity and power, Web3 Citizen Streak is not just a tool — it's a companion for the modern web3 enthusiast.
+Web3 Citizen Streak is an intuitive browser extension tailored for the dedicated 'web3 citizens'—those who immerse themselves in the decentralized digital realm daily. Recognizing the rapid evolution of the web3 ecosystem, our platform ensures users remain at the forefront of exploring innovative new dapps. Should a user's engagement wane, our intuitive system promptly introduces them to fresh, curated dapps, ensuring their streak remains unbroken. With a blend of simplicity and power, Web3 Citizen Streak is not just a tool — it's a companion for the modern web3 enthusiast.
 
 ## Initial Use-Case
 
