@@ -14,6 +14,9 @@ The primary goal of this extension is to help users maintain a daily streak of i
 - **Dapp Recommendations**: Get suggestions for new dapps to explore if you're about to break your streak.
 - **WalletConnect Integration**: Seamlessly connect your crypto wallet to interact with dapps.
 
+  <img width="320" alt="Screenshot 2023-08-20 at 1 57 38 PM" src="https://github.com/abishekdharshan/web3citizenstreak/assets/34197204/0cba902f-5abb-472a-89c8-cae886064043">
+
+
 ## Intended Future Features
 
 - **Enhanced WalletConnect Experience**: Improve the WalletConnecting experience with support for multiple connected wallets simultaneously.
@@ -53,3 +56,5 @@ We welcome contributions! Please see our `CONTRIBUTING.md` file for guidelines (
 ## License
 
 Open-source, baby!
+
+
